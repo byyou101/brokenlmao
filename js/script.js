@@ -66,10 +66,14 @@ var linkMenu = [
   ["Netflix",                  "",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
-  ["/a/ Anime & Manga",        "",""],
+  ["/wg/ Wallpapers General",  "",""],
+  ["/ic/ Artwork & Critique",  "",""],
+  ["/tg/ Traditional Games",   "",""],
+  ["/vg/ Video Game General",  "",""],
+  ["/mu/ Music",               "",""],
   ["/g/ Technology",           "",""],
-  ["/w/ Anime/Wallpapers",     "",""],
-  ["/wg/ Wallpaper/General",   "",""],
+  ["/v/ Video Games",          "",""],
+  ["/tv/ Television & Film",   "http://boards.4chan.org/trash/",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // Code Stuff
   ["/r/Rainmeter",             "",""],
