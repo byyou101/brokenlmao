@@ -184,7 +184,7 @@ function handleQuery(event, query) {
           }
         }
         if (qList.length > 1) {
-          window.location = searchSources[ssi][1].replace("{Q}", encodeURIComponent(query.replace(keyword, ""))).trim();
+          window.open(searchSources[ssi][1].replace("{Q}", encodeURIComponent(query)));
         } else {
           searchInput.placeholder = searchSources[ssi][2];
           searchInput.value = "";
