@@ -47,17 +47,23 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 // Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
 var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
-  ["AnimeNewsNetwork",         "",""],
-  ["MyAnimeList",              "",""],
-  ["Nyaa Tracker",             "",""],
-  ["BakaBT",                   "",""],
-  
-  [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "",""],
   ["Facebook",                 "",""],
   ["Reddit",                   "",""],
+  ["Gmail",                    "",""],
+  ["Evernote",                 "",""],
+  ["Twitter",                  "",""],
+  ["Tumblr",                   "",""],
+  ["Soundcloud",               "",""],
+  ["Amazon",                   "",""],
+  
+  [svgSocial,                  "green",                                       "-HEAD-"], // Media
+  ["/r/Videos",                "",""],
+  ["/r/Youtube Haiku",         "",""],
+  ["/r/Artisan Videos",        "",""],
+  ["Feedly",                   "",""],
+  ["Youtube",                  "",""],
   ["Twitch",                   "",""],
-  ["DeviantArt",               "",""],
+  ["Netflix",                  "",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
   ["/a/ Anime & Manga",        "",""],
@@ -66,23 +72,33 @@ var linkMenu = [
   ["/wg/ Wallpaper/General",   "",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // Code Stuff
+  ["/r/Rainmeter",             "",""],
+  ["/r/Internet is Beautiful", "",""],
+  ["Degraeve",                 "",""],
+  ["Adobe Colour",             "",""],
+  ["Dropbox",                  "",""],
   ["GitHub",                   "",""],
-  ["Gist",                     "",""],
-  ["JSFiddle",                 "",""],
-  ["Stack Overflow",           "",""],
-  
+  ["SSavr",                    "",""],
+  ["Privnote",                 "",""],
+  ["Bit.ly",                   "",""],
+   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
-  ["Steam",                    "",""],
-  ["Humble Bundle",            "",""],
-  ["GOG.com",                  "",""],
-  ["/r/gaming",                "",""],
+  ["/r/Dota 2",                "",""],
+  ["/r/Hearthstone",           "",""],
+  ["/r/Overwatch",             "",""],
+  ["/r/Games",                 "",""],
+  ["/r/MagicTCG",              "",""],
+  ["/r/Dungeons & Dragons",    "",""],
+  ["/r/Dwarf Fortress",        "",""],
+  ["/r/Game Deals",            "",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
-  ["Gmail",                    "",""],
-  ["Amazon",                   "",""],
-  ["Dropbox",                  "",""],
-  ["Netflix",                  "",""],
-  ["Weather",                  "",""],
+  ["/r/Ask Reddit",            "",""],
+  ["/r/Data is Beautiful",     "",""],
+  ["/r/Kotaku in Action",      "",""],
+  ["/r/Tumblr in Action",      "",""],
+  ["Tgquests",                 "",""],
+  ["SCP Wiki",                 "",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
 
