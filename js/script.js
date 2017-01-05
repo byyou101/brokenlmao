@@ -190,7 +190,7 @@ function handleQuery(event, query) {
           searchInput.value = "";
         }
       } else {
-        window.location = searchSources[ssi][1].replace("{Q}", encodeURIComponent(query));
+        window.open(searchSources[ssi][1].replace("{Q}", encodeURIComponent(query)));
       }
     } 
   }
